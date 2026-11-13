@@ -1,0 +1,13 @@
+#nittei tr.cs-row-hidden {
+  display: none !important;
+}
+
+#nittei td.cs-cell-match {
+  background-color: rgba(46, 125, 50, 0.1) !important;
+}
+
+#nittei tr.cs-row-match > td:first-child,
+#nittei tr.cs-row-match > th:first-child {
+  background-color: rgba(46, 125, 50, 0.14) !important;
+  box-shadow: inset 4px 0 0 #2e7d32 !important;
+}

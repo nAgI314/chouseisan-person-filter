@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "調整さん用 フィルタ（非公式）",
+  "version": "1.0.0",
+  "description": "回答ページで、選んだ人の○・△の日に絞り込みます。非公式の拡張です。",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://chouseisan.com/s*",
+        "https://www.chouseisan.com/s*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "css": [
+        "content.css"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "icons": {
+    "16": "icons/16.png",
+    "48": "icons/48.png",
+    "128": "icons/128.png"
+  }
+}

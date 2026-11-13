@@ -1,0 +1,11 @@
+{
+  "name": "chouseisan-person-filter",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "node --test test/parser.test.cjs"
+  },
+  "devDependencies": {
+    "jsdom": "^26.1.0"
+  }
+}
